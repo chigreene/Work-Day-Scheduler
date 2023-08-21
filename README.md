@@ -9,5 +9,17 @@ The Work Day Scheduler is a dynamic web page that allows you to add tasks, event
 - The project solves the issue of not having a dynamic work day calendar that can be accessed via the internet. 
 - What I learned is how to use dynamic webpage tools like jquery, jquery UI, and local storage.
 
+
+## Usage
+
+The web page is used to organize a work day into hour time blocks.
+
+
 ![Work Day Scheduler](./assets/work%20day%20scheduler.png)
 
+URL to web page: https://chigreene.github.io/Work-Day-Scheduler/
+
+## Credits
+Ross
+Matt J
+EdX
