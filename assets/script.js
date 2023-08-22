@@ -238,12 +238,10 @@ hour17()
 
   $('#currentDay').text(dayjs().format('MMMM D, YYYY'));
 
-  // Example usage of the object to assign classes to time blocks
   $('.time-block').each(function () {
     var hourBlock = parseInt($(this).attr('id').split('-')[1]);
     var currentHour = dayjs().hour();
   
-    // Determine the appropriate class based on the current time
     var classToAdd;
     if (hourBlock < currentHour) {
       classToAdd = timeClasses.past;
@@ -253,7 +251,6 @@ hour17()
       classToAdd = timeClasses.future;
     }
   
-    // Add the class to the element
     $(this).addClass(classToAdd);
   });
 }
