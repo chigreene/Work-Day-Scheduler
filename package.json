@@ -1,0 +1,16 @@
+{
+  "name": "work-day-scheduler",
+  "version": "1.0.0",
+  "description": "The Work Day Scheduler is a dynamic web page that allows you to add tasks, events, meetings, ect to each hour of the day and have them be saved for the next time you come back to the page.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
